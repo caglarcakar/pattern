@@ -1,3 +1,4 @@
+if defined?(ActiveRecord)
 require "active_record"
 
 module Patterns
@@ -65,4 +66,5 @@ module Patterns
       )
     end
   end
+end
 end
